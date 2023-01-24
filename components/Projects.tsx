@@ -38,7 +38,6 @@ function Projects({ projects }: Props) {
                 <span className="underline decoration-[#F7AB0A]/50">
                   Project {i + 1} of {projects.length}:
                 </span>{" "}
-                Case Study: "Metamask Redesign"
                 {project?.title}
               </h4>
               <div className="flex items-center space-x-2 justify-center">
