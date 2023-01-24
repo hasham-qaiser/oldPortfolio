@@ -46,7 +46,7 @@ function About({ pageInfo }: Props) {
           I am an entry-level front-end developer with Ux/Ui and product design
           skills. I am passionate about creating beautiful, user-friendly
           websites and applications that are both aesthetically pleasing and
-          functional. At the start of the pandemic i was laid off from my job
+          functional. At the start of the pandemic, I was laid off from my job
           and decided to head into a new career path. I was introduced to UX/UI
           design and after completing some certificate courses I decided to go
           into Front-end development. I have been working as a freelance
@@ -57,8 +57,8 @@ function About({ pageInfo }: Props) {
           practices. I am eager to break into the industry and make an impact
           with my skillset. I am confident that my combination of technical
           knowledge and creative vision will be an asset to any team. If you are
-          looking for someone who is passionate about web development and eager
-          to learn more, please don't hesitate to reach out!
+          looking for someone passionate about web development and eager to
+          learn more, please don't hesitate to reach out!
         </p>
       </div>
     </motion.div>

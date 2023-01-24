@@ -15,7 +15,7 @@ export default function Hero({ pageInfo }: Props) {
     words: [
       "Hey, This is Hasham",
       "I'm a Front-End Developer",
-      "Designer",
+      "UX Designer",
       "And community builder",
     ],
     loop: true,
