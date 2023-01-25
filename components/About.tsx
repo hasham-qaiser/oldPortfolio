@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import parkPic from "../assets/parkPic.jpg";
 import { PageInfo } from "../typings";
+import { urlFor } from "../sanity";
 type Props = {
   pageInfo: PageInfo;
 };
@@ -29,14 +30,18 @@ function About({ pageInfo }: Props) {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-      />
-      <Image
-        src={parkPic}
-        alt="about pic"
-        className="-mb-20 md:mb-5 flex-shrink-0 relative w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        src={urlFor(pageInfo?.profilePic).url()}
+        alt=""
+        className="w-40 h-40 mt-32 mb-2
+        
+        sm:mt-10 sm:-mb-20 md:mb-0 flex-shrink-0 sm:w-56 sm:h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[38vw] xl:h-[65vh] xl:max-w-[500px]"
       />
 
-      <div className="space-y-10 px-0 md:px-10 ">
+      <div
+        className="space-y-5
+      
+      sm:space-y-10 px-0 md:px-10 overflow-y-auto"
+      >
         <h4 className="text-4xl font-semibold">
           <span className="underline decoration-[#F7AB0A]/50">
             Some things about me
