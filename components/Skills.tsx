@@ -17,21 +17,17 @@ function Skills({ skills }: Props) {
       flex relative flex-col text-center xl:flex-row sm:max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Skills
+        Technologies
       </h3>
-      <h4 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
-        Development / Design
+      <h4 className="absolute top-36 tracking-[3px] text-gray-500 text-lg justify-around">
+        These are the technologies that I love working with:
       </h4>
-      <div
-        className="gap-2 mt-[13vh]
-      
-      grid grid-cols-5 sm:gap-5 sm:mt-20 xl:scale-90 xl:translate-y-12"
-      >
-        {skills?.slice(0, skills.length / 2).map((skill) => (
+      <div className="grid grid-cols-3 gap-3">
+        {skills?.slice(0, skills.length / 9).map((skill) => (
           <Skill key={skill._id} skill={skill} />
         ))}
 
-        {skills?.slice(skills.length / 2, skills.length).map((skill) => (
+        {skills?.slice(skills.length / 9, skills.length).map((skill) => (
           <Skill key={skill._id} skill={skill} directionLeft />
         ))}
       </div>

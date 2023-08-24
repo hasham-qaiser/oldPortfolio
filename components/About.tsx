@@ -44,26 +44,18 @@ function About({ pageInfo }: Props) {
       >
         <h4 className="text-4xl font-semibold">
           <span className="underline decoration-[#F7AB0A]/50">
-            Some things about me
+            Frontend Dev / Designer / Thinker
           </span>
         </h4>
         <p className="justify-text text-base">
-          I am an entry-level front-end developer with Ux/Ui and product design
-          skills. I am passionate about creating beautiful, user-friendly
-          websites and applications that are both aesthetically pleasing and
-          functional. At the start of the pandemic, I was laid off from my job
-          and decided to head into a new career path. I was introduced to UX/UI
-          design and after completing some certificate courses I decided to go
-          into Front-end development. I have been working as a freelance
-          developer for the past two years. During this time, I have gained
-          experience in HTML, CSS, Tailwind, JavaScript, React, Typescript, and
-          experience using other JavaScript frameworks. Additionally, I have
-          developed a strong understanding of UX/UI principles and best
-          practices. I am eager to break into the industry and make an impact
-          with my skillset. I am confident that my combination of technical
-          knowledge and creative vision will be an asset to any team. If you are
-          looking for someone passionate about web development and eager to
-          learn more, please don't hesitate to reach out!
+          Hi there! My name is Hasham, and I am a front-end developer based in
+          California. I'm interested in web development, UI/UX design, and data
+          analysis. I love solving difficult problems and coming up with
+          creative solutions to make websites and apps work beautifully. I enjoy
+          playing around and learning new programming languages, frameworks, and
+          libraries. I'm always looking for a new challenge to push my skills
+          further. I'm currently looking for a full-time role! Please let me
+          know if you have any opportunities to share.
         </p>
       </div>
     </motion.div>
